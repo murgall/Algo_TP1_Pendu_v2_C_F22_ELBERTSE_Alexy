@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1510220629 source:d:\exo_c\pendu_c\pendu_c\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1510858889 source:d:\exo_c\pendu_c_v2\algo_tp1_pendu_c_version_2_f22_elbertse_alexy\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
