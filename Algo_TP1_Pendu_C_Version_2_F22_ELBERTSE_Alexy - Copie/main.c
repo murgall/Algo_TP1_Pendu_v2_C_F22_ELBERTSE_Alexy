@@ -81,15 +81,15 @@ int main()
 
         for (i = 0; i <LongueurMot; i++)    //Affiche l'avancé actuelle du mot à découvrir
         {
-            MotAfficher[i] = taille_mot(i);
+            MotAfficher[i] = taille_mot(i); //fonction qui masque le mot à deviner
         }
     printf("Bienvenue dans le jeu du pendu!\n");
 
     i= 0;                                   //Réinitialise L'index
     while ((NbCoupRestant>0) && (NbLettreRestante>0))
         {
-        text_debut(MotAfficher, NbCoupRestant);
-        lettreEntree = saisie_caractere(&lettreEntree);
+        text_debut(MotAfficher, NbCoupRestant); //procedure permettant d'afficher l'avancé actuelle du jeu
+        lettreEntree = saisie_caractere(&lettreEntree); //fonction permettant d'entrer une lettre
 
         for (j = 0;j <LongueurMot; j++){
             if (lettreEntree == motaTrouver[j]){    //vérifie que la lettre entrée correspond à une(ou plusieurs) lettres du mot caché
